@@ -1,9 +1,14 @@
+<!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <title>About Us - Best Cars Dealership</title>
   <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 1in;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Dealerships</h2>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,45 +29,46 @@
       </div>
     </div>
   </nav>
-  
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
+
+  <div class="card" style="width: 80%; margin: auto; margin-top: 5%;">
+    <div class="banner" name="about-header">
       <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+      <h1>About Us</h1>
+      <p>Welcome to Best Cars dealership. We offer reasonable prices and a wide selection of vehicles. Buy from the best!</p>
+    </div>
+    <div style="display: flex; flex-direction: row; margin: auto;">
+      <div class="card" style="width: 30%; margin-right: 1%;">
+        <img class="card-img-top" src="/static/jeff.jpeg" alt="Jeff's image">
         <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+          <p class="title">Jeff Bezos</p>
+          <p>Founder & CEO</p>
+          <p class="card-text">Jeff has over 20 years of experience in the automotive industry, driving innovation and excellence.</p>
+          <p>jeff@example.com</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 30%; margin-right: 1%;">
+        <img class="card-img-top" src="/static/zucc.jpeg" alt="Mark's image">
+        <div class="card-body">
+          <p class="title">Mark Zuckerberg</p>
+          <p>Chief Technology Officer</p>
+          <p class="card-text">Mark leads our technology division, ensuring our systems are cutting-edge and efficient.</p>
+          <p>mark@example.com</p>
         </div>
       </div>
 
       <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
+        <img class="card-img-top" src="/static/amb.jpeg" alt="Mukesh's image">
         <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
+          <p class="title">Mukesh Ambani</p>
+          <p>Chief Financial Officer</p>
+          <p class="card-text">Mukesh oversees our financial operations, bringing a wealth of knowledge and expertise to the team.</p>
+          <p>mukesh@example.com</p>
         </div>
       </div>
     </div>
-    </div>
-    </div>
-    
-</div>
-
+  </div>
+  
+  <script src="/static/bootstrap.bundle.min.js"></script>
+</body>
 </html>
