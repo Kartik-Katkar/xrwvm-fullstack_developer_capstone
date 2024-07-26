@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dealerships</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background-color: #00c4c4;
+            padding: 10px 20px;
+        }
+        .navbar h1 {
+            display: inline;
+            color: black;
+            font-size: 24px;
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .navbar .right {
+            float: left;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .container h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .form-group input {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .form-group input[type="password"] {
+            margin-bottom: 20px;
+        }
+        .form-group input[type="submit"], .form-group input[type="button"] {
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .form-group a {
+            display: block;
+            margin-top: 10px;
+            color: #00c;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar right">
+        <!-- <div class="right"> -->
+        <h1>Dealerships</h1>
+       
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+
+        <!-- </div> -->
+    </div>
+    <div class="container">
+        <h2>Login</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" value="kartik">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" value="password">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login">
+                <input type="button" value="Cancel">
+            </div>
+            <a href="#">Register Now</a>
+        </form>
+    </div>
+</body>
+</html>
