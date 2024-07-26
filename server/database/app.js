@@ -1,5 +1,7 @@
 // Do this every time you make change to app.js
 // docker build . -t nodeapp
+// doker-compose up
+// doker-compose down 
 
 const express = require('express');
 const mongoose = require('mongoose');
